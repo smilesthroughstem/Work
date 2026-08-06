@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { Eye, Heart } from 'lucide-react'
-
-import { ImagePlaceholder } from '@/components/image-placeholder'
 
 export const metadata: Metadata = {
   title: 'About | Smiles Through STEM',
@@ -27,7 +26,16 @@ export default function AboutPage() {
             {"My name is Arshia Malhotra, and I am currently a sophomore in a medical school early acceptance program at Middle Tennessee State University. Spending hours volunteering with children receiving treatment and with individuals with special needs firsthand exposed me to the struggles they face. Oftentimes, they are severely anxious and may be missing school to get the help they require. To address this issue, I started this project in 2024 to keep children busy in an educational manner. Since then, I have created and donated over 200 kits to various children's hospitals and medical centers. However, my desire to help these individuals has only grown stronger, as I am now working on making this initiative larger and more sustainable."}
           </p>
         </div>
-        <ImagePlaceholder label="Insert a photo of Arshia or the project" />
+        <div className="overflow-hidden rounded-3xl bg-muted">
+          <Image
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100_0249%202-gRgLQigVO07SDTq5LsA3x3efNQh7kq.jpg"
+            alt="Arshia Malhotra, founder of Smiles Through STEM"
+            width={2448}
+            height={3264}
+            className="h-full w-full object-cover"
+            priority
+          />
+        </div>
       </section>
 
       <section className="bg-secondary">
