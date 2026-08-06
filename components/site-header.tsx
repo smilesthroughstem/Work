@@ -1,7 +1,8 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
-import { FlaskConical, Menu } from 'lucide-react'
+import { Menu } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -24,9 +25,14 @@ const navigation = [
 function Brand() {
   return (
     <Link href="/" className="flex items-center gap-3" aria-label="Smiles Through STEM home">
-      <span className="flex size-10 items-center justify-center rounded-full bg-secondary text-primary">
-        <FlaskConical aria-hidden="true" className="size-5" />
-      </span>
+      <Image
+        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-07-07%20at%2010.06.37%E2%80%AFPM-G0M0UUEBn4Dgb3KYMcIBZqCtwxnVGB.png"
+        alt="Smiles Through STEM logo"
+        width={1024}
+        height={1024}
+        className="size-12 rounded-full object-cover"
+        priority
+      />
       <span className="font-heading text-base font-bold tracking-tight text-foreground sm:text-lg">
         Smiles Through STEM
       </span>
