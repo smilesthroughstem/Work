@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const timeline = [
   { date: 'June 2024', detail: '10 kits donated to children receiving dialysis at Dialysis Clinic Inc (DCI)' },
   { date: 'July 2024', detail: '90 kits donated to Vanderbilt Children’s Hospital' },
-  { date: 'July 2024', detail: 'Drop off at Vanderbilt Children’s Hospital' },
+  { date: 'July 2024', detail: 'Drop off of 90 kits at Vanderbilt Children’s Hospital' },
   { date: 'July 2026', detail: 'Drop off of 30 kits at Mercy Community Healthcare' },
   { date: 'August 2026', detail: 'Drop off of 70 kits at Vanderbilt Children’s Hospital' },
 ]
