@@ -61,6 +61,16 @@ export default function ProjectsPage() {
                           priority
                         />
                       </div>
+                    ) : index === 2 ? (
+                      <div className="overflow-hidden rounded-3xl bg-muted">
+                        <Image
+                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2303%20%281%29%20%281%29-TRHD9QbSh7bsVrEHz3hk0uTs5tfKYJ.jpg"
+                          alt="Smiles Through STEM donation drop-off at Vanderbilt Children’s Hospital"
+                          width={4032}
+                          height={3024}
+                          className="min-h-64 w-full object-cover"
+                        />
+                      </div>
                     ) : (
                       <ImagePlaceholder label={`Insert photo for ${item.date}`} />
                     )}
