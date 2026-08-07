@@ -1,7 +1,6 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Building2, HandHeart, PackageOpen } from 'lucide-react'
-
-import { ImagePlaceholder } from '@/components/image-placeholder'
 import { Button } from '@/components/ui/button'
 
 const impact = [
@@ -29,7 +28,15 @@ export default function HomePage() {
           </div>
           <div className="relative">
             <div className="rounded-[2rem] bg-background p-3 shadow-sm">
-              <ImagePlaceholder label="Insert your home page image" />
+              <Image
+                src="/images/stem-kits-home.jpeg"
+                alt="Rows of turquoise Smiles Through STEM kit bags ready for donation"
+                width={2432}
+                height={1824}
+                priority
+                sizes="(min-width: 768px) 50vw, calc(100vw - 40px)"
+                className="aspect-[4/3] w-full rounded-3xl object-cover"
+              />
             </div>
           </div>
         </div>
