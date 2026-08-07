@@ -71,6 +71,16 @@ export default function ProjectsPage() {
                           className="min-h-64 w-full object-cover"
                         />
                       </div>
+                    ) : index === 3 ? (
+                      <div className="overflow-hidden rounded-3xl bg-muted">
+                        <Image
+                          src="/images/mercy-community-healthcare-july-2026.png"
+                          alt="Smiles Through STEM delivering kits to Mercy Community Healthcare in July 2026"
+                          width={1179}
+                          height={1438}
+                          className="min-h-64 w-full object-cover"
+                        />
+                      </div>
                     ) : (
                       <ImagePlaceholder label={`Insert photo for ${item.date}`} />
                     )}
