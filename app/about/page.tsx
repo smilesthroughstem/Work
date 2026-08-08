@@ -55,7 +55,7 @@ export default function AboutPage() {
             </span>
             <h2 className="font-heading text-2xl font-extrabold">Our Vision</h2>
             <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-              {"To expand this initiative to children’s hospitals and clinics across different regions because every child deserves the right to channel their curiosity into discovery, regardless of their circumstance."}
+              {"To expand this initiative to children’s hospitals and health centers across regions sustainably, creating a lasting impact."}
             </p>
           </article>
         </div>
