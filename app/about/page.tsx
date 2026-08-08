@@ -23,7 +23,10 @@ export default function AboutPage() {
           <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">The Story</p>
           <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight sm:text-4xl">A personal mission</h2>
           <p className="mt-7 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            {"My name is Arshia Malhotra, and I am currently a sophomore in a medical school early acceptance program at Middle Tennessee State University. Spending hours volunteering with children receiving treatment and with individuals with special needs firsthand exposed me to the struggles they face. Oftentimes, they are severely anxious and may be missing school to get the help they require. To address this issue, I started this project in 2024 to keep children busy in an educational manner. Since then, I have created and donated over 200 kits to various children's hospitals and medical centers. However, my desire to help these individuals has only grown stronger, as I am now working on making this initiative larger and more sustainable."}
+            {"I am Arshia Malhotra, a sophomore enrolled in a Medical School Early Acceptance Program at Middle Tennessee State University. Spending hours volunteering in a medical center and with organizations supporting those with disabilities exposed me to the struggles they face, particularly children. Many of these children experience significant anxiety, and those with extended hospital stays may miss school to receive the care they require.
+
+To help make this stressful time more positive, I began creating and donating hands-on STEM kits in 2024, giving children an opportunity to stay engaged and learn through experiments that spark curiosity. Since then, I have donated over 200 kits to children's hospitals and health centers throughout Middle Tennessee. My desire to support these children has only grown stronger, and I am now working on expanding the scope and impact of this initiative.
+"}
           </p>
         </div>
         <figure className="w-full max-w-xs justify-self-center overflow-hidden rounded-3xl bg-muted shadow-sm">
