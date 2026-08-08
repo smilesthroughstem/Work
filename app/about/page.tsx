@@ -46,7 +46,7 @@ export default function AboutPage() {
             </span>
             <h2 className="font-heading text-2xl font-extrabold">Our Mission</h2>
             <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-              To alleviate anxiety of children during their clinical visits or medical treatment in an educational way.
+              To alleviate anxiety among children during their clinical visits or medical treatment by providing interactive STEM kits that channel their curiosity into discovery.
             </p>
           </article>
           <article className="flex flex-col gap-5 rounded-3xl bg-background p-8 shadow-sm sm:p-10">
